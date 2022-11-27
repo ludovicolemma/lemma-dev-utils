@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='lemma_dev_utils',
-    version='0.0.1',
+    version='0.0.3',
     license='MIT',
     author="Ludovico Lemma",
     author_email='lwdovico@protonmail.com',
