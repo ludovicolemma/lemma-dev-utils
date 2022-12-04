@@ -12,6 +12,7 @@ setup(
     keywords='Utils',
     install_requires=[
           'tqdm',
+          'imageio',
       ],
 
 )
