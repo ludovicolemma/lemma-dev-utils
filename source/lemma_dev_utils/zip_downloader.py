@@ -84,6 +84,7 @@ def unzip(path, file_name):
 def download_unzip(path, url, remove_zip = True):
 
     file_name = urllib.request.urlopen(url).info().get_filename()
+    file_name = file_name if file_name is not None else "temp.zip"
     download(url, file_name)
     unzip(path, file_name)
     
